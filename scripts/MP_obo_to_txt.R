@@ -16,7 +16,7 @@ library(ontologyIndex);library(tidyr);library(dplyr);library(Hmisc)
 ##############################################################################################
 
 
-mp <- get_ontology("http://purl.obolibrary.org/obo/hp.obo")
+mp <- get_ontology("http://ontologies.berkeleybop.org/mp.obo")
 
 ## hpo ids and descriptions
 
