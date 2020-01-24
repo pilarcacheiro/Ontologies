@@ -4,9 +4,9 @@
 ## Project: Ontologies
 ## Script: HPO_obo_to_txt.R
 ## Purpose: import Human Phenotype Ontology in obo format and convert to plain text files
-## Author: Pilar Cacheiro15/02/2019 
-## Date: 15/02/2019
-## HPO notes: format-version: 1.2; data-version: releases/2019-02-12
+## Author: Pilar Cacheiro
+## Date: 24/01/20020
+## HPO notes: format-version: 1.2; data-version: hp/releases/2019-11-08
 
 #############################################################################################
 #############################################################################################
