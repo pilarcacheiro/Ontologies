@@ -10,7 +10,7 @@ the ontologies directly from different online repositories.
 
 ### What kind of feedback would I like?
 
-* I use these scripts every other day, and I realise that I wouldn't really need
+* I use these scripts quite often and I realise that I wouldn't really need
 to run them as far as I got the output files, I just do in case there is an
 update in the original ontology release, so I'm not sure if there is a way to
 check that the obo file that I'm importing is different from a previous one that
@@ -22,3 +22,4 @@ your thoughts on that.
 * Since the 2 scripts are almost identical, I know I should wrap them into just
 one single script / function, but I still struggle to do this.
 * Is there a way to create an empty directory (empty folder data)?
+* Any other kind of feedback would also be highly appreciated
