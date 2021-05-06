@@ -56,7 +56,7 @@ get_parent_nodes <- function(parents) {
   
   hpo_parents <- data.frame(
     hpo_term = do.call(rbind,hpo_term), 
-    hpo_parents = do.call(rbind, hpo_parents), stringsAsFactors=F) %>%
+    hpo_parents = do.call(rbind, hpo_parents), stringsAsFactors = F) %>%
     mutate(hpo_parents = strsplit(as.character(hpo_parents), ",")) %>%
     unnest(hpo_parents) %>%
     filter(hpo_term != hpo_parents)
@@ -81,7 +81,7 @@ get_children_nodes <- function(children) {
   
   hpo_children <-  data.frame(
     hpo_term = do.call(rbind, hpo_term),
-    hpo_children = do.call(rbind, hpo_children), stringsAsFactors=F) %>%
+    hpo_children = do.call(rbind, hpo_children), stringsAsFactors = F) %>%
     mutate(hpo_children = strsplit(as.character(hpo_children), ",")) %>%
     unnest(hpo_children) %>%
     filter(hpo_term != hpo_children)
@@ -105,7 +105,7 @@ get_ancestor_nodes <- function(ancestors) {
   
   hpo_ancestors <- data.frame(
     hpo_term = do.call(rbind, hpo_term),
-    hpo_ancestors = do.call(rbind, hpo_ancestors),stringsAsFactors=F) %>%
+    hpo_ancestors = do.call(rbind, hpo_ancestors),stringsAsFactors = F) %>%
     mutate(hpo_ancestors = strsplit(as.character(hpo_ancestors), ",")) %>%
     unnest(hpo_ancestors) %>%
     filter(hpo_term != hpo_ancestors )
