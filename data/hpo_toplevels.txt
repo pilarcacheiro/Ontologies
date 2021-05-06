@@ -1,0 +1,7 @@
+hpo_term	hpo_description
+HP:0000005	Mode of inheritance
+HP:0000118	Phenotypic abnormality
+HP:0012823	Clinical modifier
+HP:0032223	Blood group
+HP:0032443	Past medical history
+HP:0040279	Frequency
